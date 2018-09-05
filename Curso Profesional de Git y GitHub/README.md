@@ -195,7 +195,9 @@ git config --list
   * `--soft [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al staging area.
   * `--mixed [sha1]` borrar todos los commits posteriores a [sha1]. Los archivos que salen del repositorio son pasados al working directory
   * `--hard [sha1]` elimina todos los cambios incluso del working directory. 
-
+  * `--hard [sha1]` Tips: Antes de utilizar este comando se puede resguardar la información con el siguiente comando:
+                         git log > log.txt
+                         git log--oneline --decorate > log.txt
 Si se desea eliminar el repositorio, solo hay que eliminar la carpeta oculta .git
 
 <div align="right">
