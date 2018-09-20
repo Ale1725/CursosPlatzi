@@ -232,6 +232,8 @@ git config --list
 * `git clone [ruta]` trae el repositorio a la computadora
 * `fork` hace una copia de un repositorio externo a nuestra cuenta
 * `ssh-keygen -t rsa -b 4096 -C "correo@ejemploc.com"` crea una llave ssh. El correo debe de ser el mismo que se encuentra en Github
+* `pbcopy < ~/.ssh/id_rsa.pub` Se copia la llave ssh (Otros sistemas operativo).
+* `cat ~/.ssh/id_rsa.pub` Se copia la llave ssh (Para windows)
 * `git remote add [nombre] [ruta]` conecta un repositorio remoto con uno local. Por defecto el nombre es origin
 * `git remote -v` lista las conexiones remota
 * `git remote remove [nombre]` remueve una conexión remota
